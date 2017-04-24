@@ -1,0 +1,164 @@
+html{
+  background-color: white;
+  font-family: helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: .9;
+  font-weight: bold;
+ }
+body{
+  background-color: black;
+  width:1400px;
+  margin-top: 0px;
+}
+.header{
+  display: inline-flex;
+  height:69px;
+  width: 1400;
+  border: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  margin-top: 0px;
+  padding-top: 5px;
+
+
+}
+.left{
+  justify-content: flex-start;
+  width: 690px;
+  padding-left: 10px;
+  }
+.header img{
+  height: 50px;
+  width: auto;
+  padding-top: 0px;
+}
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  }
+li{
+  padding: 15px;
+  text-decoration: underline;
+
+}
+.right{
+  width: 700px;
+ }
+
+.main{
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  width: 1360px;
+  padding-left: 20px;
+
+}
+
+.container1{
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/background1.jpg");
+ }
+.titlein1{
+  display: inline-block;
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+  padding: 10px;
+
+
+}
+.container2{
+  display: flex;
+
+   width: 1000px;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+
+}
+.titlein2{
+  display: inline-block;
+  width:1000px;
+  text-align: center;
+}
+img{
+  width:300px;
+  height: 200px;
+  padding-top: 20px;
+}
+h4{
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px;
+}
+.row123{
+   width: 1000px;
+   display: flex;
+   justify-content: space-between;
+}
+.row45{
+  width:650px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.container3{
+
+  height: 500px;
+  width: 1200px;
+  padding: 50px;
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.titlein3{
+  display: inline-block;
+  text-align: center;
+  margin-bottom:0px;
+
+}
+h2{
+  margin: 0px;
+}
+.rowin3{
+  display: flex;
+  justify-content: center;
+}
+.item1,
+.item2,
+.item3{
+  height:auto;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+.container4{
+  text-align: center;
+  height: 200px;
+}
+h1{
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.footer{
+  color: white;
+  margin-left: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+}
